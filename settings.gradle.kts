@@ -1,9 +1,6 @@
-rootProject.name = "tribot-script-template"
+rootProject.name = "jargons-fisher"
 
-include("libraries:my-library")
-
-include("scripts:my-script")
-include("scripts")
+include("scripts:jargons-fisher")
 
 pluginManagement {
     repositories {
