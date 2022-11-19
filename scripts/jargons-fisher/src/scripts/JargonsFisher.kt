@@ -15,8 +15,8 @@ import scripts.task.Cook
 import scripts.task.Fish
 import java.util.function.BooleanSupplier
 
-@TribotScriptManifest(name = "Jargons Al Kharid Fisher", author = "Jargon", category = "Fishing", description = "BFishes shrimp/anchovies in Al Kharid, then proceeds to cook and/or bank them")
-class MyScript : TribotScript {
+@TribotScriptManifest(name = "Jargons Al Kharid Fisher", author = "Jargon", category = "Fishing", description = "Fishes shrimp/anchovies in Al Kharid, then proceeds to cook and/or bank them")
+class JargonFisher : TribotScript {
     override fun execute(args: String) {
 
         var scriptActive = true
